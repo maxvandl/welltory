@@ -17,9 +17,9 @@ prometheus:
 # Задача для middle
 
 ## 1 Применить манифесты  
-Task:  
+### Task:  
 Применить манифесты  
-HowTo  
+### HowTo  
 `git clone bla ` 
 или  
 `git pull `
@@ -30,9 +30,9 @@ HowTo
 `kubectl apply -f welltory-prom.yaml`
 
 ## 2 Обновить версию прометеуса
-Task:  
+### Task:  
 Обновить версию прометеуса  
-HowTo:  
+### HowTo:  
 в welltory-prom.yam в строке 136 заменить v2.10.0 на последнюю с dockerhub  
 затем  
 `kubectl apply -f welltory-prom.yaml`  
