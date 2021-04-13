@@ -113,7 +113,6 @@ spec:
             - name: prometheus-storage-volume
               mountPath: /data
               subPath: ""
-
       containers:
         - name: prometheus-server-configmap-reload
           image: "jimmidyson/configmap-reload:v0.1"
