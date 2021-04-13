@@ -16,17 +16,17 @@ Deploy redis exporter
 
 Задача для middle
 
-1 Применить манифесты
-Task:
-Применить манифесты
-HowTo
-
-git clone bla
-или
-git pull в репозитории
-развернуть Redis
+1 Применить манифесты  
+Task:  
+Применить манифесты  
+HowTo  
+`git clone bla ` 
+или  
+`git pull `
+в репозитории  
+развернуть Redis  
 `kubectl apply -f welltory-redis.yaml`
-развернуть Prometheus
+развернуть Prometheus  
 `kubectl apply -f welltory-prom.yaml`
 
 2 Обновить версию прометеуса
