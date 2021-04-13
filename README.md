@@ -2,7 +2,7 @@
 
 `kubectl apply -f welltory-redis.yaml`
 
-развернуть Prometheus
+# развернуть Prometheus
 
 `kubectl apply -f welltory-prom.yaml`
 
@@ -11,12 +11,12 @@ manespace: welltory
 redis cluster statefulset: 3 nodes
 prometheus: 
 
-Deploy redis exporter
+# Deploy Redis exporter
 `helm install --namespace welltory --name redis-monitoring-prometheus-redis-exporter stable/prometheus-redis-exporter --set redisAddress=redis://redis-cluster:6379`
 
-Задача для middle
+# Задача для middle
 
-1 Применить манифесты  
+## 1 Применить манифесты  
 Task:  
 Применить манифесты  
 HowTo  
@@ -29,7 +29,7 @@ HowTo
 развернуть Prometheus  
 `kubectl apply -f welltory-prom.yaml`
 
-2 Обновить версию прометеуса
+## 2 Обновить версию прометеуса
 Task:
 Обновить версию прометеуса
 HowTo:
