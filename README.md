@@ -1,6 +1,6 @@
 # развернуть Redis
 
-'''kubectl apply -f welltory-redis.yaml'''
+`kubectl apply -f welltory-redis.yaml`
 
 развернуть Prometheus
 
