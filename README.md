@@ -30,11 +30,11 @@ HowTo
 `kubectl apply -f welltory-prom.yaml`
 
 ## 2 Обновить версию прометеуса
-Task:
-Обновить версию прометеуса
-HowTo:
-в welltory-prom.yam в строке 136 заменить v2.10.0 на последнюю с dockerhub
-затем
-`kubectl apply -f welltory-prom.yaml`
-передеплоить стек
+Task:  
+Обновить версию прометеуса  
+HowTo:  
+в welltory-prom.yam в строке 136 заменить v2.10.0 на последнюю с dockerhub  
+затем  
+`kubectl apply -f welltory-prom.yaml`  
+передеплоить стек  
 
