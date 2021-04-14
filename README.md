@@ -20,7 +20,10 @@ prometheus:
 ### Task:  
 Применить манифесты  
 ### HowTo  
-`git clone bla ` 
+`git clone git@github.com:maxvandl/welltory.git 
+cd welltory
+kubectl apply -f welltory-redis.yaml
+kubectl apply -f welltory-prom.yaml` 
 или  
 `git pull `
 в репозитории  
